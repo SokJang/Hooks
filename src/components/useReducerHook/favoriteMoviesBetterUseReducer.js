@@ -31,7 +31,7 @@ export function FavoriteMoviesBetterUseReducer(){
           return <Movie
             movie={movie}
             onRemove={
-              () => dispatch({type: 'remove', item: index})
+              () => dispatch({type: 'remove', index})
             }
           />;
         })}
